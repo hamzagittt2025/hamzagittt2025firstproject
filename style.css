@@ -912,7 +912,7 @@ color:#ededed;
 @media (max-width: 480px) {
    .home{
       justify-content: center;
-    background-position:-500px center;
+    background-position:-520px center;
    }
    .home-content{
       display: flex;
@@ -959,7 +959,7 @@ color:#ededed;
     top: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     z-index: 50;
     background: transparent;
     transition: 1.5s;
