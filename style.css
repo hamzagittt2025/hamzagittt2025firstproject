@@ -910,42 +910,100 @@ color:#ededed;
 }
 
 @media (max-width: 480px) {
-   .home {
+   .home{
       justify-content: center;
-      flex-direction: column;
-      text-align: center;
+    background-position:-500px center;
    }
-
-   .home-content {
+   .home-content{
       display: flex;
-      flex-direction: column;
+      flex-wrap:column;
       align-items: center;
+      text-align: center;
    }
+    .home-content p{
+       font-size: 10px;
+       text-align: center;
+       margin: 25px;
 
+   }
+   .btn-box{
+       padding: 6px 60px;
+    width: auto;
+    justify-content: space-between;
+    gap: 2rem;
+   }
+   .btn-box a{
+          font-size: 1.5rem;
+   }
    .home-content h1 {
-      font-size: 6rem;
-      text-align: center;
-      
+        font-size: 40px;
    }
-.home-content h1 span{
-   color: #00abf0;
- }
- .home-content h3{
-   font-size: 3rem;
-   color: #ededed;
- }
-   .home-content p {
-      font-size: 1rem;
-      text-align: center;
+   .home-content h3{
+      font-size: 20px;
+      top: 20px;
    }
- 
    .home-sci{
-      width: 120px;
+      z-index: 99;
    }
-   .home-sci a{
-      width: 30px;
-      height: 30px;
+   .home-imgHover{
+          font-size: 50%;
+    color: #ededed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Roboto';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: transparent;
+    transition: 1.5s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay: 2.5s;
+    pointer-events: all;
    }
+   .about-content p{
+          
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+  .education-content .content::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: -28px;
+  width: 12px;
+  height: 12px;
+  background-color: #0c8cbe; /* নীল রঙ */
+  border-radius: 50%; /* বুলেট গোল করে দিলাম */
+}
+  .footer-iconTop {
+    position:relative;
+  bottom: 100px; 
+   margin-left: 29.3rem;
+   bottom: 5px;
+   align-items: center;
+  }
+
+  .footer-iconTop a i {
+    font-size: 16px;
+    padding: 4px;
+  }
+     .footer-text{
+       display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 10rem;
+    flex-wrap: wrap;
+     }
 }
 @keyframes aboutSpinner{
    100%{
