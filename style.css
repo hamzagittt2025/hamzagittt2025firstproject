@@ -919,6 +919,7 @@ color:#ededed;
       flex-wrap:column;
       align-items: center;
       text-align: center;
+     z-index: 99;
    }
     .home-content p{
        font-size: 10px;
