@@ -938,6 +938,7 @@ color:#ededed;
    }
    .home-content h1 {
         font-size: 40px;
+     z-index:99;
    }
    .home-content h3{
       font-size: 20px;
